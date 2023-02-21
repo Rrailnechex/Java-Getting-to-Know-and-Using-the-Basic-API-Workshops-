@@ -3,9 +3,10 @@ package org.example;
 import java.util.Arrays;
 
 /* Дан массив целых чисел. Заменить отрицательные элементы на сумму индексов двузначных элементов массива */
+
 public class Task3 {
     public static void main(String[] args) {
-        int[] arr = {1, 12, -2, -1, 3, 98, 10111, -10};
+        int[] arr = { 1, 12, -2, -1, 3, 98, 10111, -10 };
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 0) {
